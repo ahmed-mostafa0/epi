@@ -1,0 +1,63 @@
+body {
+	padding: 50px 20px;
+	max-width: 100%;
+	background-color: #530332;
+}
+
+div h4 {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	letter-spacing: 1.5px; 
+	font-size: 20px;
+	font-weight: 500;
+	padding: 50px 5px;
+	background-color: #2e121d;
+	color: white;
+	line-height: 2;
+}
+
+div .qq {
+	position: relative;
+	right: 30px;
+	width: 100%;
+	padding: 40px;
+	background-color: #800834;
+}
+
+div .qq div {
+	margin-top: 20px;
+	font-size: 20px;
+	color: white;
+}
+
+div.answer {
+	position: absolute;
+	left: 100px;
+	padding: 0 20px;
+	color:white;
+	z-index: -1;
+}
+
+div.hov {
+	position: absolute;
+	display: flex;
+	left: 100px;
+	padding: 20px;
+	background-color: #c72B41;
+	transition: 1s;
+	align-items: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+div.hov:hover {
+	margin-top: 50px;
+}
+
+label {
+	font-size: 30px
+}
+
+input {
+	width: 20px;
+	height: 20px;
+}
