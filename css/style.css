@@ -20,6 +20,7 @@ div .qq {
 	right: 30px;
 	width: 100%;
 	padding: 40px;
+	margin-bottom: 30px;
 	background-color: #800834;
 }
 
@@ -30,23 +31,25 @@ div .qq div {
 }
 
 div.answer {
-	position: absolute;
 	left: 100px;
 	padding: 0 20px;
 	color:white;
 	z-index: -1;
+	text-align: center;
 }
 
 div.hov {
-	position: absolute;
 	display: flex;
 	left: 100px;
 	padding: 20px;
+	margin-bottom: 20px;
 	background-color: #c72B41;
 	transition: 1s;
 	align-items: center;
 	font-weight: bold;
 	font-size: 25px;
+	translate: 0 -46px;
+		justify-content: center
 }
 
 div.hov:hover {
@@ -60,4 +63,12 @@ label {
 input {
 	width: 20px;
 	height: 20px;
+}
+
+div.answer h3.an{
+	left: 100px;
+		margin: -18px 10px -1px;
+		color: white;
+		z-index: -1;
+		text-align: center;
 }
